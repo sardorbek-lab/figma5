@@ -1,0 +1,664 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+header .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+header .logo a{
+    color: rgb(78, 78, 78);
+    font-size: 17px;
+}
+header .logo .a1{
+    color: rgba(220, 120, 11, 1);
+    font-size: 17px;
+}
+header .btn button{
+    width: 150px;
+    height: 46px;
+    border-radius: 5px;
+    background: rgba(220, 120, 11, 1);
+    color: #fff;
+    border: none;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.banner .text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 500px;
+    position: relative;
+    top: -130px;
+    left: 25px;
+}
+.banner .img img{
+    width: 800px;
+    height: 750px;
+    position: relative;
+    top: -120px;
+    left: 55px;
+}
+.banner .text h1{
+    font-size: 45px;
+
+}
+.banner .text p{
+    color: #414141;
+    position: relative;
+    top: 30px;
+}
+.banner .text .btns{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 70px;
+    position: relative;
+    top: 90px;
+}
+.banner .text .btns .btn1 button{
+    width: 158px;
+    height: 50px;
+    border-radius: 5px;
+    background: rgba(220, 120, 11, 1);
+    color: #fff;
+    border: none;
+    font-size: 17px;
+}
+.banner .text .btns .btn2 button{
+    width: 158px;
+    height: 50px;
+    border-radius: 5px;
+    background: transparent;
+    color:rgba(220, 120, 11, 1);
+    border: none;
+    font-size: 17px;
+}
+.food{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.food .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.food .header p{
+    color:rgba(220, 120, 11, 1);
+    font-size: 20px;
+}
+.food .header h1{
+    color: rgba(21, 12, 1, 1);
+}
+.food .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    position: relative;
+    top: 40px;
+}
+.food .cards .card{
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.food .cards .card .text p{
+    color: #414141;
+    position: relative;
+    top: 10px;
+}
+.food .cards .card .text{
+    position: relative;
+    top: 40px;
+}
+.food .cards .card .img img{
+    width: 80px;
+    height: 60px;
+    position: relative;
+}
+.about{
+    position: relative;
+    top: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px
+    ;
+}
+.about .text{
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.about .text h1{
+    font-size: 32px;
+}
+.about .text p{
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+    top: 20px;
+    color: rgb(69, 69, 69);
+}
+.about .text span{
+    color:rgba(220, 120, 11, 1);
+    font-size: 20px;
+    position: relative;
+    top: -8px;
+}
+.about .text  .btn button{
+    position: relative;
+    top: 60px;
+    width: 142px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgba(220, 120, 11, 1) ;
+    color: #ffff;
+}
+.about .img img{
+    width: 702px;
+    height: 586px;
+    border-radius: 28px;
+}
+.full{
+    position: relative;
+    top: 600px;
+}
+.full .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.full .header span{
+    color: rgba(220, 120, 11, 1);
+    position: relative;
+    top: -20px;
+    font-size: 23px;
+}
+.full .header p{
+    color: #414141;
+    position: relative;
+    top: 30px;
+}
+.full .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+    gap: 30px
+    ;
+}
+.full .cards .card{
+    width: 360px;
+    height: 406px;
+    border: 2px solid #c8c8c8;
+    border-radius: 80px 5px 9px 0px;
+}
+.full .cards .card .img img{
+    width: 360px;
+    height: 264px;
+    border-radius: 80px 5px 80px 0px;
+}
+.full .cards .card .text .text1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    width: 360px;
+    position: relative;
+    top: 10px;
+}
+.full .cards .card .text .text1 span{
+    font-size: 23px;
+}
+.full .cards .card .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+}
+.full .cards .card .text p{
+    position: relative;
+    top: 20px;
+    color: #414141;
+}
+.full .cards .card .icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    position: relative;
+    top: 34px;
+}
+.full .cards .card .icons .icon1{
+    width: 32px;
+    height: 32px;
+    background-color: rgba(220, 120, 11, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 6px;
+}
+.full .cards .card .icons .icon2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(220, 120, 11, 1);
+    gap: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.full .cards2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+    gap: 30px
+    ;
+}
+.full .cards2 .card{
+    width: 360px;
+    height: 406px;
+    border: 2px solid #c8c8c8;
+    border-radius: 80px 5px 9px 0px;
+}
+.full .cards2 .card .img img{
+    width: 360px;
+    height: 264px;
+    border-radius: 80px 5px 80px 0px;
+}
+.full .cards2 .card .text .text1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    width: 360px;
+    position: relative;
+    top: 10px;
+}
+.full .cards2 .card .text .text1 span{
+    font-size: 23px;
+}
+.full .cards2 .card .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+}
+.full .cards2 .card .text p{
+    position: relative;
+    top: 20px;
+    color: #414141;
+}
+.full .cards2 .card .icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    position: relative;
+    top: 34px;
+}
+.full .cards2 .card .icons .icon1{
+    width: 32px;
+    height: 32px;
+    background-color: rgba(220, 120, 11, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 6px;
+}
+.full .cards2 .card .icons .icon2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(220, 120, 11, 1);
+    gap: 3px;
+}
+.full .p1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+}
+.full .p1 p{
+    font-size: 20px;
+    color:rgba(220, 120, 11, 1) ;
+}
+.tel{
+    position: relative;
+    top: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+.tel .text{
+    width: 500px;
+}
+.tel .text span{
+    color:rgba(220, 120, 11, 1) ;
+    font-size: 20px;
+}
+.tel .text p{
+    position: relative;
+    top: 30px;
+    color: #414141;
+
+}
+.tel .img img{
+    width: 333px;
+    height: 633px;
+}
+.tel .text .cards{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 30px;
+    position: relative;
+    top: 60px;
+}
+.tel .text .cards .card1{
+    width: 163px;
+    height: 40px;
+    background: rgba(21, 12, 1, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    gap: 4px
+    ;
+}
+.tel .text .cards .card1 p{
+    position: relative;
+    top: 0px;
+    color: #fff;
+}
+.tel .text .cards .card2{
+    width: 163px;
+    height: 40px;
+    border: 1px solid rgb(112, 112, 112);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    gap: 4px
+    ;
+
+}
+.tel .text .cards .card2 p{
+    position: relative;
+    top: -0px;
+    color: black;
+}
+.test{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 1200px;
+    gap: 20px;
+    text-align: center;
+}
+.test span{
+    font-size: 19px;
+    color:rgba(220, 120, 11, 1)  ;
+}
+.test p{
+    color: #414141;
+}
+.test .icon i{
+    color: rgba(220, 120, 11, 1);
+}
+.test .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.test .p1 p{
+    color: black;
+}
+.test .p1 {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.test .p1 .icon1 i{
+    color: #636363;
+}
+.test .p2 p{
+    color: black;
+}
+.test .icon .icon1 i{
+    color: #414141;
+}
+.test .p2 h6{
+    color: #414141;
+    position: relative;
+    top: 10px;
+}
+.contact{
+    width: 100%;
+    height: 448px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 1400px;
+    background-color: rgb(244, 232, 221);
+}
+.contact .text span{
+    color: rgba(220, 120, 11, 1);
+}
+.contact .in{
+    width: 750px;
+    height: 75px;
+    background-color: #fff;
+    position: relative;
+    top: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0px 0px 20px;
+}
+.contact .in p{
+    color: #414141;
+}
+.contact .in button{
+    width: 156px;
+    height: 75px;
+    border-radius: 10px;
+    background: rgba(220, 120, 11, 1);
+    border: none;
+    color: #fff;
+    font-size: 17px;    
+}
+.footer{
+    width: 100%;
+    height: 429px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(37, 37, 37, 1);
+    position: relative;
+    top: 1400px;
+    gap: 180px;
+}
+.footer .logo{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+}
+.footer .logo p{
+    color: #c8c8c8;
+}
+.footer .logo img{
+    position: relative;
+    left: -15px;
+}
+.footer .logo span{
+    color: #fff;
+    font-size: 20px;
+}
+.footer .logo2 .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+.footer .logo2 .icons .icon1 i{
+    color: #fff;
+    
+}
+.footer .logo2 .icons .icon1 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(108 39 179);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer .logo2 .icons .icon2 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgba(74, 122, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.footer .logo2 .icons .icon3 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgba(85, 172, 238, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.footer .logo2 .icons .icon4 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgba(210, 34, 21, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+
+
+.footer .logo2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+}
+.footer .logo2 p{
+    color: #c8c8c8;
+}
+.footer .logo2 img{
+    position: relative;
+    left: -15px;
+}
+.footer .logo2 span{
+    color: #fff;
+    font-size: 20px;
+}
+.footer .logo2 .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
